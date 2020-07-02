@@ -39,7 +39,7 @@ jobs:
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
+        publish_dir: ./static-generated
         publish_branch: gh-pages
           
     # Runs a single command using the runners shell
