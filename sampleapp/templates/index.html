@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Homepage
+{% endblock %}
+
+{% block body %}
+<h1>Welcome!</h1>
+
+<ul>
+    <li><a href="{{ url_for('newyears') }}">Is it New Years Day?</a></li>
+    <li><a href="{{ url_for('greeting') }}">Greeting</a></li>
+    <li><a href="{{ url_for('notes') }}">Notes</a></li>
+</ul>
+{% endblock %}

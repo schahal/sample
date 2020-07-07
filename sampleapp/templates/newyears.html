@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Is it New Year's Day?
+{% endblock %}
+
+{% block body %}
+<div id=opener>
+    {% if new_year %}
+    <h1>Yes! Happy New Year!</h1>
+    {% else %}
+    <h1>No, it's not New Year's Day today.</h1>
+    {% endif %}
+</div>
+{% endblock %}
