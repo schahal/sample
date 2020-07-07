@@ -5,7 +5,8 @@ def supercharge(num):
 
     Args:
         num (int): some number
-    Returns
+
+    Returns:
         int
     """
     if not isinstance(num, int):
