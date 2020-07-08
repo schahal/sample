@@ -11,7 +11,7 @@ with open("requirements.txt", 'r') as f:
         required.append(l)
 
 setuptools.setup(
-    name='samplepkg',
+    name='samplepkg-schahal',
     version="0.0.1",
     author="Foo Bar",
     author_email="foobar@example.com",
