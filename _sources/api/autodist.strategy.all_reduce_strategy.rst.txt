@@ -1,7 +1,0 @@
-All Reduce Strategy
-===================
-
-.. automodule:: autodist.strategy.all_reduce_strategy
-    :members:
-    :undoc-members:
-    :show-inheritance:

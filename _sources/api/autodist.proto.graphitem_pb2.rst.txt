@@ -1,7 +1,0 @@
-Graphitem Pb2
-=============
-
-.. automodule:: autodist.proto.graphitem_pb2
-    :members:
-    :undoc-members:
-    :show-inheritance:

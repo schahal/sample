@@ -1,7 +1,0 @@
-Patch
-=====
-
-.. automodule:: autodist.patch
-    :members:
-    :undoc-members:
-    :show-inheritance:

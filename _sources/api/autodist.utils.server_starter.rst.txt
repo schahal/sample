@@ -1,7 +1,0 @@
-Server Starter
-==============
-
-.. automodule:: autodist.utils.server_starter
-    :members:
-    :undoc-members:
-    :show-inheritance:

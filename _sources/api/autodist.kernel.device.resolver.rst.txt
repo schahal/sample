@@ -1,7 +1,0 @@
-Resolver
-========
-
-.. automodule:: autodist.kernel.device.resolver
-    :members:
-    :undoc-members:
-    :show-inheritance:

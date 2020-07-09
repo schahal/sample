@@ -1,7 +1,0 @@
-Network
-=======
-
-.. automodule:: autodist.utils.network
-    :members:
-    :undoc-members:
-    :show-inheritance:

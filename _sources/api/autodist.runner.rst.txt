@@ -1,7 +1,0 @@
-Runner
-======
-
-.. automodule:: autodist.runner
-    :members:
-    :undoc-members:
-    :show-inheritance:

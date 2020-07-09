@@ -1,7 +1,0 @@
-Uneven Partition Ps Strategy
-============================
-
-.. automodule:: autodist.strategy.uneven_partition_ps_strategy
-    :members:
-    :undoc-members:
-    :show-inheritance:

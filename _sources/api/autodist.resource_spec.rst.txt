@@ -1,7 +1,0 @@
-Resource Spec
-=============
-
-.. automodule:: autodist.resource_spec
-    :members:
-    :undoc-members:
-    :show-inheritance:

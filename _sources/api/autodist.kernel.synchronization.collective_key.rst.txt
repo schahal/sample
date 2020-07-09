@@ -1,7 +1,0 @@
-Collective Key
-==============
-
-.. automodule:: autodist.kernel.synchronization.collective_key
-    :members:
-    :undoc-members:
-    :show-inheritance:

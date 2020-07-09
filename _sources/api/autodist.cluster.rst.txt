@@ -1,7 +1,0 @@
-Cluster
-=======
-
-.. automodule:: autodist.cluster
-    :members:
-    :undoc-members:
-    :show-inheritance:

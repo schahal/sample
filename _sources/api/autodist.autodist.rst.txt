@@ -1,7 +1,0 @@
-Autodist
-========
-
-.. automodule:: autodist.autodist
-    :members:
-    :undoc-members:
-    :show-inheritance:
