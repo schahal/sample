@@ -29,3 +29,16 @@ jobs:
       run: |
         make pypkg_create
         make pypkg_upload
+    - name: Commit VERSION file bump
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git checkout -b version-bump
+        cat VERSION | awk -F. -v OFS=. 'NF==1{print ++$NF}; NF>1{$NF=sprintf("%0*d", length($NF), ($NF+1)); print}' > VERSION.tmp && mv VERSION.tmp VERSION
+        git add VERSION
+        git commit -m "Bump candidate version"
+    - name: Push branch
+      uses: ad-m/github-push-action@40bf560
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: version-bump

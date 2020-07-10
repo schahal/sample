@@ -12,7 +12,7 @@ with open("requirements.txt", 'r') as f:
 
 setuptools.setup(
     name='samplepkg-schahal',
-    version="0.0.1",
+    version="0.0.2",
     author="Foo Bar",
     author_email="foobar@example.com",
     description="A sample package to help supercharge a number",
