@@ -9,3 +9,4 @@ A sample repo to help display / PoC the following:
 * Docker builds to Docker Hub
 * Python package releases to PyPI 
 * Release notes
+* Jenkins Integration
