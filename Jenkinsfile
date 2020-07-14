@@ -8,6 +8,7 @@ pipeline {
   }
   environment {
     DOCKER_REGISTRY='registry.petuum.com/internal/scalable-ml/autodist/toolchain'
+    JENKINS_URL='http://52.26.133.24:8080'
   }
     agent none
     stages {
