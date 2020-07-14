@@ -6,6 +6,7 @@ pipeline {
 
   options {
     timeout(time: 2, unit: 'HOURS')
+    retry(2)
   }
   environment {
     DOCKER_REGISTRY='registry.petuum.com/internal/scalable-ml/autodist/toolchain'
