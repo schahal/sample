@@ -1,5 +1,7 @@
 def myflag = false
 
+properties([pipelineTriggers([githubPush()])])
+
 pipeline {
   options {
     timeout(time: 2, unit: 'HOURS')
