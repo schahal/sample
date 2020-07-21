@@ -7,6 +7,6 @@ Status](https://img.shields.io/docker/cloud/build/satchahal/sample.svg)
 A sample repo to help display / PoC the following:
 * Automatic doc generation (GitHub Pages)
 * Docker builds to Docker Hub
-* Python package releases to PyPI 
+* Python package releases to PyPI (Github Actions) 
 * Release notes and Badges
 * Jenkins-Github Integration
